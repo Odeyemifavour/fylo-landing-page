@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
+    background-image: "images/bg-curvy-desktop.svg";
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+header nav .nav_list
+{
+    list-style-type: none;
+    display: flex;
+    font-weight: 400;
+}
+header nav .nav_list li
+{
+    padding: 10px;
+    text-transform: capitalize;
+}
+header nav .nav_list li a
+{
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+}
+.intro-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro
+{
+   justify-content: center;
+   align-items: center; 
+   text-align: center;
+   width: 50%;
+   margin: auto;
+   color:hsl(0, 0%, 100%) ;
+}
+.intro h1
+{
+    font-weight: 900;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+.intro p
+{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: 18x;
+}
+.intro button
+{
+  background-color: hsl(198, 60%, 50%);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 30%;
+  margin: auto;
+  color:hsl(0, 0%, 100%)  ;
+  text-transform: capitalize;
+}
+.features
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 36px;
+    width:80% ;
+    margin: auto;
+    margin-top: 36px;
+    color: #ffffff;
+}
+.features .feature
+{
+    width: 50%;
+    margin: auto;
+}   
+
+.moreInfo
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.moreInfo .leftCol
+{
+    width: 40%;
+    margin: auto;
+}
+.moreInfo .rightCol
+{
+    width: 30%;
+    margin: auto;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.moreInfo .rightCol h1
+{
+    font-size: 40px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.moreInfo .rightCol p
+{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.moreInfo .rightCol a
+{
+  color: hsl(176, 68%, 64%);  
+    letter-spacing: 1px;
+}
+
+div.reviews
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.reviews .review
+{
+    width: 30%;
+    margin: auto;
+    background-color: hsl(219, 30%, 18%) ;
+    border-radius: 5px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    padding: 20px;
+    
+}
+.reviews .review p
+{
+    width: 100%;
+}
+.reviews .review section.profile div.profile-img img
+{
+    width: 50px;
+    border-radius: 20px;
+    padding-right: 5px;
+}
+.reviews .review section.profile
+{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.reviews .review section.profile .profile-name
+{
+    text-transform: capitalize;
+}
+.CTA
+{
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    color: #ffffff;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.CTA p
+{
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    padding: 15px 0;
+}
+.CTA .send-email
+{
+    width: 80%;
+    margin: auto
+}
+.CTA .send-email input, .CTA .send-email button
+{
+    padding: 10px;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+}
+.CTA .send-email input
+{
+    width:60% ;
+  
+}
+.CTA .send-email button
+{
+    width: 30%;
+    color: #ffffff;
+    background-color: hsl(198, 60%, 50%);
+    text-transform: capitalize;
+}
+footer
+{
+    width: 100%;
+    background-color:hsl(216, 53%, 9%) ;
+    margin: 20px 0 0 0;
+}
+.footer-bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    color:   hsl(0, 0%, 100%);
+}
+footer .footer-bottom .footer-info
+{
+    width: 20%;
+    letter-spacing: 0.5px
+}
+footer .footer-bottom .contact
+{
+    line-height: ;
+}
+footer .footer-bottom .contact .phone-contact, footer .footer-bottom .contact .email-contact
+{
+    display: flex;
+    padding: 10px ;
+
+}
+footer .footer-bottom .contact .phone-contact img, footer .footer-bottom .contact .email-contact img{
+    padding: 0 5px ;
+}
+footer .footer-bottom .about ul, footer .footer-bottom .contact ul
+{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+footer .footer-bottom .about ul li
+{
+   
+}
+footer .footer-bottom .about ul li a, footer .footer-bottom .contact ul a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
