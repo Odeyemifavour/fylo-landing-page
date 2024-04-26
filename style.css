@@ -260,3 +260,169 @@ footer .footer-bottom .about ul li a, footer .footer-bottom .contact ul a
     text-decoration: none;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 600px){
+   
+    header
+    {
+        width:80% ;
+        margin: auto;
+        font-size: 10px;
+    }
+    header img
+    {
+      width: 100px;
+    }
+    .intro-img img
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .intro
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .intro .intro-element
+    {
+        width: 100%;
+    }
+    .features
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+    .features .feature
+    {
+        width: 100%;
+        padding: 30px;
+    }
+    .moreInfo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .moreInfo .leftCol
+    {
+        width: 100%;
+    }
+    .moreInfo .leftCol img
+    {
+        width: 100%;
+    }
+    .moreInfo .rightCol
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 30px;
+    }
+    .moreInfo .rightCol a
+    {
+        font-size: 15px;
+    }
+    .moreInfo .rightCol h1, .moreInfo .rightCol p, .moreInfo .rightCol a
+    {
+        padding: 10px;
+    }
+    .reviews
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .reviews .review
+    {
+        width: 100%;
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+    .CTA 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        margin-top:20px;
+        border-radius: 0;
+    }
+    .CTA h1
+    {
+      width:100%;
+      margin: auto;
+    }
+    .CTA p
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .CTA .send-email 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        padding: 20px;
+    }
+    .CTA .send-email input
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .CTA .send-email button
+    {
+        width: 50%;
+        margin: auto;
+        font-size: 10px;
+    }
+    .CTA .send-email input, .CTA .send-email button
+    {
+       margin-top: 5px; 
+    }
+    footer 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+       line-height: 20px;
+    }
+    footer .footer-top
+    {
+        align-items: center;
+        margin: auto;
+    }
+    footer .footer-bottom
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    footer .footer-bottom .footer-img,footer .footer-bottom .footer-info,footer .footer-bottom .contact
+    {
+      padding:20px;
+    }
+    footer .footer-bottom .footer-info
+    {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+}
